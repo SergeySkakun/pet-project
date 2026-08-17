@@ -1,0 +1,1 @@
+This is my personal pet project, which is based on [the final task of the RSS](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/eCommerce-Application). Later I will add a detailed description.
