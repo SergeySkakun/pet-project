@@ -8,3 +8,10 @@ pre-commit:
     ts-check:
       glob: "*.{ts,tsx}"
       run: npx tsc --noEmit
+    fast-tests:
+      run: npx vitest related {staged_files} --run --passWithNoTests --browser.headless
+
+pre-push:
+  commands:
+    browser-tests:
+      run: npm run test
