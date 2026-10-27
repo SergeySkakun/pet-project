@@ -2,6 +2,7 @@
   "include": ["src/**/*", "tests/**/*"],
   "compilerOptions": {
     "allowJs": true,
+    "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
